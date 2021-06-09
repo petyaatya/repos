@@ -1,0 +1,19 @@
+﻿<Window x:Class="SzunyogVar.ExitWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzunyogVar"
+        mc:Ignorable="d"
+        Title="Kilépés" Height="140" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="147*"/>
+            <ColumnDefinition Width="146*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnExitYes" Content="Igen" HorizontalAlignment="Left" Margin="48,49,0,0" VerticalAlignment="Top" Width="75" Height="19" FontWeight="Bold" Click="btnExitYes_Click"/>
+        <Button x:Name="btnExitNo" Content="Nem" Grid.Column="1" HorizontalAlignment="Left" Margin="24.8,49,0,0" VerticalAlignment="Top" Width="75" Height="19" FontWeight="Bold" Click="btnExitNo_Click"/>
+        <Label Content="Tényleg be akarod zárni a programot?" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="248" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
