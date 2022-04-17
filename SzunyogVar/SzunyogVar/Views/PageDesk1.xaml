@@ -1,12 +1,10 @@
-﻿
-    
-    <Page
+﻿<Page
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:SzunyogVar"
-      xmlns:ViewModel="clr-namespace:SzunyogVar.ViewModel" xmlns:Models="clr-namespace:SzunyogVar.Models" x:Class="SzunyogVar.PageDesk1"
+      xmlns:Models="clr-namespace:SzunyogVar.Models" xmlns:ViewModel="clr-namespace:SzunyogVar.ViewModel" d:DataContext="{d:DesignInstance Type={x:Type Models:Kategoria}}" x:Class="SzunyogVar.PageDesk1"
       mc:Ignorable="d" 
       d:DesignHeight="617.194" d:DesignWidth="1194.861"
       Title="PageDesk1">
@@ -18,21 +16,29 @@
     </Page.Background>
 
     <Grid>
-        <TextBox x:Name="txtPrintable" HorizontalAlignment="Left" Height="515" Margin="767,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="383"
-  AcceptsReturn="True"
-  VerticalScrollBarVisibility="Visible"/>
         <ListBox x:Name="lstCategory" HorizontalAlignment="Left" Height="515" Margin="10,10,0,0" 
-                 VerticalAlignment="Top" Width="327" ItemsSource="{Binding categoryName}" SelectedIndex="{Binding categoryName}" IsSynchronizedWithCurrentItem="true" SelectionChanged="lstCategory_SelectionChanged">
-            <ListBox.DataContext>
-                
-                <Models:Kategoria/>
-            </ListBox.DataContext>
+                 VerticalAlignment="Top" Width="327"  IsSynchronizedWithCurrentItem="true" 
+                 ItemsSource="{Binding }"
+                 SelectionChanged="lstCategory_SelectionChanged" FontSize="14" Background="#FFD6CECE">
+            
+
         </ListBox>
-        <ListBox x:Name="lstMenuItem" HorizontalAlignment="Left" Height="515" Margin="398,10,0,0" VerticalAlignment="Top" Width="319"/>
+        <ListBox x:Name="lstMenuItem" HorizontalAlignment="Left" Height="515" Margin="398,10,0,0" VerticalAlignment="Top" Width="319" Background="#FFEEECEC">
+            <!--<DataGrid Height="515" Width="309"/>-->
+        </ListBox>
         <Button x:Name="btnNyomtat" Content="Nyomtat" HorizontalAlignment="Left" Margin="767,552,0,0" VerticalAlignment="Top" Width="383" Height="55" ToolTip="Nyomtatás" FontSize="36" FontWeight="Bold"/>
         <Button x:Name="btnClear" Content="Asztal leszedése" HorizontalAlignment="Left" Margin="18,552,0,0" VerticalAlignment="Top" Width="319" Height="55" ToolTip="Nyomtatási felület tisztítása" FontSize="36" FontWeight="Bold" Click="btnClear_Click"/>
         <Button x:Name="btnRemove" Content="-" HorizontalAlignment="Left" Margin="613,552,0,0" VerticalAlignment="Top" Width="104" Height="55" FontSize="36" FontWeight="Bold" ToolTip="A kijelölt étel/ital törlése"/>
-        <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Left" Margin="398,552,0,0" VerticalAlignment="Top" Width="104" Height="55" FontSize="36" FontWeight="Bold" ToolTip="A kijelölt étel/ital hozzáadása" />
+        <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Left" Margin="398,552,0,0" VerticalAlignment="Top" Width="104" Height="55" FontSize="36" FontWeight="Bold" ToolTip="A kijelölt étel/ital hozzáadása" Click="btnAdd_Click" />
 
+        <DataGrid x:Name="txtPrintable" HorizontalAlignment="Stretch" Height="515" Margin="767,10,0,0"
+                  VerticalAlignment="Top" ItemsSource="{Binding ElementName=lstMenuItem}" 
+                  CanUserDeleteRows="False" AutoGenerateColumns="False" CanUserAddRows="False" SelectionMode="Single">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product"  Width="*" MinWidth="300" Binding="{Binding MenuItemName}"/>
+                <DataGridTextColumn Header="Price" Width="*" MinWidth="70" Binding="{Binding ItemPrice}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Page>

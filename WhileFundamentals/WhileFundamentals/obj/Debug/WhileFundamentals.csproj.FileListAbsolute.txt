@@ -1,0 +1,6 @@
+C:\Users\SP\source\repos\WhileFundamentals\WhileFundamentals\bin\Debug\WhileFundamentals.exe.config
+C:\Users\SP\source\repos\WhileFundamentals\WhileFundamentals\bin\Debug\WhileFundamentals.exe
+C:\Users\SP\source\repos\WhileFundamentals\WhileFundamentals\bin\Debug\WhileFundamentals.pdb
+C:\Users\SP\source\repos\WhileFundamentals\WhileFundamentals\obj\Debug\WhileFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\WhileFundamentals\WhileFundamentals\obj\Debug\WhileFundamentals.exe
+C:\Users\SP\source\repos\WhileFundamentals\WhileFundamentals\obj\Debug\WhileFundamentals.pdb

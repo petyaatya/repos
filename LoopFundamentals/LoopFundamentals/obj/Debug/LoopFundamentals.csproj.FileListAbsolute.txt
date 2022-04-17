@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\LoopFundamentals\LoopFundamentals\bin\Debug\LoopFundamentals.exe.config
+C:\Users\SP\source\repos\LoopFundamentals\LoopFundamentals\bin\Debug\LoopFundamentals.exe
+C:\Users\SP\source\repos\LoopFundamentals\LoopFundamentals\bin\Debug\LoopFundamentals.pdb
+C:\Users\SP\source\repos\LoopFundamentals\LoopFundamentals\obj\Debug\LoopFundamentals.csprojAssemblyReference.cache
+C:\Users\SP\source\repos\LoopFundamentals\LoopFundamentals\obj\Debug\LoopFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\LoopFundamentals\LoopFundamentals\obj\Debug\LoopFundamentals.exe
+C:\Users\SP\source\repos\LoopFundamentals\LoopFundamentals\obj\Debug\LoopFundamentals.pdb

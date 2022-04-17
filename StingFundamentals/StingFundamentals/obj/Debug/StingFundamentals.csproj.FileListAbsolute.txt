@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\StingFundamentals\StingFundamentals\bin\Debug\StingFundamentals.exe.config
+C:\Users\SP\source\repos\StingFundamentals\StingFundamentals\bin\Debug\StingFundamentals.exe
+C:\Users\SP\source\repos\StingFundamentals\StingFundamentals\bin\Debug\StingFundamentals.pdb
+C:\Users\SP\source\repos\StingFundamentals\StingFundamentals\obj\Debug\StingFundamentals.csprojAssemblyReference.cache
+C:\Users\SP\source\repos\StingFundamentals\StingFundamentals\obj\Debug\StingFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\StingFundamentals\StingFundamentals\obj\Debug\StingFundamentals.exe
+C:\Users\SP\source\repos\StingFundamentals\StingFundamentals\obj\Debug\StingFundamentals.pdb

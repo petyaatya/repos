@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\SummarizingTextFundamentals\SummarizingTextFundamentals\bin\Debug\SummarizingTextFundamentals.exe.config
+C:\Users\SP\source\repos\SummarizingTextFundamentals\SummarizingTextFundamentals\bin\Debug\SummarizingTextFundamentals.exe
+C:\Users\SP\source\repos\SummarizingTextFundamentals\SummarizingTextFundamentals\bin\Debug\SummarizingTextFundamentals.pdb
+C:\Users\SP\source\repos\SummarizingTextFundamentals\SummarizingTextFundamentals\obj\Debug\SummarizingTextFundamentals.csprojAssemblyReference.cache
+C:\Users\SP\source\repos\SummarizingTextFundamentals\SummarizingTextFundamentals\obj\Debug\SummarizingTextFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\SummarizingTextFundamentals\SummarizingTextFundamentals\obj\Debug\SummarizingTextFundamentals.exe
+C:\Users\SP\source\repos\SummarizingTextFundamentals\SummarizingTextFundamentals\obj\Debug\SummarizingTextFundamentals.pdb

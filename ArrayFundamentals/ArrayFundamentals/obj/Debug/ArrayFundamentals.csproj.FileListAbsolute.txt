@@ -1,0 +1,6 @@
+C:\Users\SP\source\repos\ArrayFundamentals\ArrayFundamentals\bin\Debug\ArrayFundamentals.exe.config
+C:\Users\SP\source\repos\ArrayFundamentals\ArrayFundamentals\bin\Debug\ArrayFundamentals.exe
+C:\Users\SP\source\repos\ArrayFundamentals\ArrayFundamentals\bin\Debug\ArrayFundamentals.pdb
+C:\Users\SP\source\repos\ArrayFundamentals\ArrayFundamentals\obj\Debug\ArrayFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\ArrayFundamentals\ArrayFundamentals\obj\Debug\ArrayFundamentals.exe
+C:\Users\SP\source\repos\ArrayFundamentals\ArrayFundamentals\obj\Debug\ArrayFundamentals.pdb

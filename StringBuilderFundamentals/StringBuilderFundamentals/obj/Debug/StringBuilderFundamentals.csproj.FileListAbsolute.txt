@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\StringBuilderFundamentals\StringBuilderFundamentals\bin\Debug\StringBuilderFundamentals.exe.config
+C:\Users\SP\source\repos\StringBuilderFundamentals\StringBuilderFundamentals\bin\Debug\StringBuilderFundamentals.exe
+C:\Users\SP\source\repos\StringBuilderFundamentals\StringBuilderFundamentals\bin\Debug\StringBuilderFundamentals.pdb
+C:\Users\SP\source\repos\StringBuilderFundamentals\StringBuilderFundamentals\obj\Debug\StringBuilderFundamentals.csprojAssemblyReference.cache
+C:\Users\SP\source\repos\StringBuilderFundamentals\StringBuilderFundamentals\obj\Debug\StringBuilderFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\StringBuilderFundamentals\StringBuilderFundamentals\obj\Debug\StringBuilderFundamentals.exe
+C:\Users\SP\source\repos\StringBuilderFundamentals\StringBuilderFundamentals\obj\Debug\StringBuilderFundamentals.pdb

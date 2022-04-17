@@ -23,6 +23,7 @@ namespace SzunyogVar
         public PageNoDesk()
         {
             InitializeComponent();
+            
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\67Excercise5\67Excercise5\bin\Debug\67Excercise5.exe.config
+C:\Users\SP\source\repos\67Excercise5\67Excercise5\bin\Debug\67Excercise5.exe
+C:\Users\SP\source\repos\67Excercise5\67Excercise5\bin\Debug\67Excercise5.pdb
+C:\Users\SP\source\repos\67Excercise5\67Excercise5\obj\Debug\67Excercise5.csproj.SuggestedBindingRedirects.cache
+C:\Users\SP\source\repos\67Excercise5\67Excercise5\obj\Debug\67Excercise5.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\67Excercise5\67Excercise5\obj\Debug\67Excercise5.exe
+C:\Users\SP\source\repos\67Excercise5\67Excercise5\obj\Debug\67Excercise5.pdb

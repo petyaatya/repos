@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SzunyogvarEtterem/1.0.0": {
+        "runtime": {
+          "SzunyogvarEtterem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SzunyogvarEtterem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

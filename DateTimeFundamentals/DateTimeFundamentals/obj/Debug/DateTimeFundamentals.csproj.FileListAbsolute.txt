@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\DateTimeFundamentals\DateTimeFundamentals\bin\Debug\DateTimeFundamentals.exe.config
+C:\Users\SP\source\repos\DateTimeFundamentals\DateTimeFundamentals\bin\Debug\DateTimeFundamentals.exe
+C:\Users\SP\source\repos\DateTimeFundamentals\DateTimeFundamentals\bin\Debug\DateTimeFundamentals.pdb
+C:\Users\SP\source\repos\DateTimeFundamentals\DateTimeFundamentals\obj\Debug\DateTimeFundamentals.csprojAssemblyReference.cache
+C:\Users\SP\source\repos\DateTimeFundamentals\DateTimeFundamentals\obj\Debug\DateTimeFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\DateTimeFundamentals\DateTimeFundamentals\obj\Debug\DateTimeFundamentals.exe
+C:\Users\SP\source\repos\DateTimeFundamentals\DateTimeFundamentals\obj\Debug\DateTimeFundamentals.pdb

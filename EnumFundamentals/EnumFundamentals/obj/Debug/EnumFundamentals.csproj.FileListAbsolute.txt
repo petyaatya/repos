@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\EnumFundamentals\EnumFundamentals\bin\Debug\EnumFundamentals.exe.config
+C:\Users\SP\source\repos\EnumFundamentals\EnumFundamentals\bin\Debug\EnumFundamentals.exe
+C:\Users\SP\source\repos\EnumFundamentals\EnumFundamentals\bin\Debug\EnumFundamentals.pdb
+C:\Users\SP\source\repos\EnumFundamentals\EnumFundamentals\obj\Debug\EnumFundamentals.csprojAssemblyReference.cache
+C:\Users\SP\source\repos\EnumFundamentals\EnumFundamentals\obj\Debug\EnumFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\EnumFundamentals\EnumFundamentals\obj\Debug\EnumFundamentals.exe
+C:\Users\SP\source\repos\EnumFundamentals\EnumFundamentals\obj\Debug\EnumFundamentals.pdb

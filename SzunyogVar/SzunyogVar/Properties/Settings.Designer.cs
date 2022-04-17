@@ -26,5 +26,7 @@ namespace SzunyogVar.Properties
                 return defaultInstance;
             }
         }
+
+        public string DataConnectionString { get; internal set; }
     }
 }

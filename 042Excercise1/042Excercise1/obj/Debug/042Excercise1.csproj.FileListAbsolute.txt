@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\042Excercise1\042Excercise1\bin\Debug\042Excercise1.exe.config
+C:\Users\SP\source\repos\042Excercise1\042Excercise1\bin\Debug\042Excercise1.exe
+C:\Users\SP\source\repos\042Excercise1\042Excercise1\bin\Debug\042Excercise1.pdb
+C:\Users\SP\source\repos\042Excercise1\042Excercise1\obj\Debug\042Excercise1.csprojAssemblyReference.cache
+C:\Users\SP\source\repos\042Excercise1\042Excercise1\obj\Debug\042Excercise1.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\042Excercise1\042Excercise1\obj\Debug\042Excercise1.exe
+C:\Users\SP\source\repos\042Excercise1\042Excercise1\obj\Debug\042Excercise1.pdb

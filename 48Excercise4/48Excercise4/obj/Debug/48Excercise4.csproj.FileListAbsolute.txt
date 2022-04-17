@@ -1,0 +1,7 @@
+C:\Users\SP\source\repos\48Excercise4\48Excercise4\bin\Debug\48Excercise4.exe.config
+C:\Users\SP\source\repos\48Excercise4\48Excercise4\bin\Debug\48Excercise4.exe
+C:\Users\SP\source\repos\48Excercise4\48Excercise4\bin\Debug\48Excercise4.pdb
+C:\Users\SP\source\repos\48Excercise4\48Excercise4\obj\Debug\48Excercise4.csproj.CoreCompileInputs.cache
+C:\Users\SP\source\repos\48Excercise4\48Excercise4\obj\Debug\48Excercise4.exe
+C:\Users\SP\source\repos\48Excercise4\48Excercise4\obj\Debug\48Excercise4.pdb
+C:\Users\SP\source\repos\48Excercise4\48Excercise4\obj\Debug\48Excercise4.csprojAssemblyReference.cache
