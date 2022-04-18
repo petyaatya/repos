@@ -1,0 +1,5 @@
+﻿@model IEnumerable<SzunyogvarEtterem.Models.MenuItemModel>//felsorolhato dolgok többször akarok felsorolni
+
+@foreach (var item in Model){
+<p>@item.MenuItemName @item.Price</p>
+}
