@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Datas\SETClass.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\images\mosquito.png" />
   </ItemGroup>
 

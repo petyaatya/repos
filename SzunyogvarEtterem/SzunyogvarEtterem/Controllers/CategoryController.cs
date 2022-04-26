@@ -11,39 +11,51 @@ namespace SzunyogvarEtterem.Controllers
         // GET: CategoryController
         public ActionResult Index()
         {
-            List<CategoryModel> categoriList = DBHandler.GetCategories();
-            return View(categoriList);
+            return View();
         }
 
         // GET: CategoryController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            CategoryModel categoryModel = DBHandler.GetCategoryDetails(id);
+            return View("Details",categoryModel);
         }
 
         // GET: CategoryController/Create
         public ActionResult Create()
         {
-            return View();
+          return View("CreateCategoryView");
         }
         public ActionResult GetCategory()
         {
+            List<CategoryModel> categoryList = DBHandler.GetCategories();
+            return View("Index",categoryList);
+        }
+
+        public ActionResult DeleteCategory(int id) {
+            //"SELECT * from menuCategory WHERE categoryID=@id"
             return View();
         }
 
+        
+        
         // POST: CategoryController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(CategoryModel categoryModel)
         {
+            
+                DBHandler.Create(categoryModel);
+
             try
             {
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
+                return View("Index", categoryModel);//detailsel működik.
             }
+
         }
 
         // GET: CategoryController/Edit/5
