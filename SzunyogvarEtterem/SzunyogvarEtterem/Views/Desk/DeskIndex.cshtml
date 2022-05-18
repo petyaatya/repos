@@ -1,0 +1,15 @@
+﻿@*
+    The CategoryIndex and MenuItemIndex views will be here
+*@
+
+Itt lesznek a listák. Baloldalt a Kategóriák, középen a menüElemek és jobb oldalt a menü elemekből felvett ételek/italok. 
+Alatta számolja az összeget mellette három gomb. Elem törlése, asztal leszedése, nyomtatás.
+Az asztalokat a visible paraméterrel lehet majd váltogatni.
+@{
+    <div>
+    
+    <partial name="/Views/Desk/_CategoryIndex.cshtml" />
+    </div>
+}
+    @{
+       await Html.PartialAsync("_CategoryIndex");}

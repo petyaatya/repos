@@ -1,0 +1,24 @@
+﻿@model IEnumerable<SzunyogvarEtterem.Models.MenuItemModel>
+
+
+<table class="list-group">
+    <thead>
+        <tr>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItemName)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuItemName)
+            </td>    
+            
+        </tr>
+}
+    </tbody>
+
+</table>

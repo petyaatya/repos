@@ -2,10 +2,20 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    
 }
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 
 a {
   color: #0077cc;
@@ -16,11 +26,20 @@ a {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+.dropdown {
+    color:whitesmoke;
+    float:right;
+
+}
+
+
+
+
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .border-top {
@@ -46,3 +65,4 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+

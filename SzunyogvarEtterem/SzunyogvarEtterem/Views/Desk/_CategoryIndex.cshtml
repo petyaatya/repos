@@ -1,0 +1,19 @@
+﻿@model IEnumerable<SzunyogvarEtterem.Models.CategoryModel>
+
+
+
+    <div class="list-group">
+@foreach (var item in Model) {
+ 
+     
+
+    <button type="button" class="list-group-item list-group-item-check list-group-item-check:checked list-group-item-action">
+    @Html.DisplayFor(model=>item.CategoryName, new { name=item.CategoryName  })
+    </button>
+
+}
+        </div>
+
+@section Scripts{
+<link href="~/css/CategoryIndex.css" rel="stylesheet"/>
+}

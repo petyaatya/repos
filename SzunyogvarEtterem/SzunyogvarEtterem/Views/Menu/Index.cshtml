@@ -1,5 +1,47 @@
-﻿@model IEnumerable<SzunyogvarEtterem.Models.MenuItemModel>//felsorolhato dolgok többször akarok felsorolni
+﻿@model IEnumerable<SzunyogvarEtterem.Models.MenuItemModel>
 
-@foreach (var item in Model){
-<p>@item.MenuItemName @item.Price</p>
+@{
+    ViewData["Title"] = "Ételek/Italok";
 }
+
+<h1>Lista</h1>
+
+<p>
+    <a asp-action="Create">Új étel/ital hozzáadása</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuItemName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuItemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.MenuItemID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.MenuItemID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.MenuItemID})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

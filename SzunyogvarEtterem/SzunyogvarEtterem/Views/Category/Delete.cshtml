@@ -1,21 +1,22 @@
 ﻿@model SzunyogvarEtterem.Models.CategoryModel
 
 @{
-    ViewData["Title"] = "Részletek";
+    ViewData["Title"] = "Delete";
 }
 
-<h1>Details</h1>
+<h1>Delete</h1>
 
+<h3>Are you sure you want to delete this?</h3>
 <div>
     <h4>CategoryModel</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        @*<dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CategoryId)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CategoryId)
-        </dd>
+        </dd>*@
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CategoryName)
         </dt>
@@ -23,8 +24,9 @@
             @Html.DisplayFor(model => model.CategoryName)
         </dd>
     </dl>
-</div>
-<div>
-    @Html.ActionLink("Edit", "Edit", new {  id = Model.CategoryId }) |
-    <a asp-controller="Category" asp-action="GetCategory">Back to Category List</a>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+       <a asp-controller="Category" asp-action="GetCategory">Back to List</a>
+    </form>
 </div>

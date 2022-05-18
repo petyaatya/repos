@@ -32,11 +32,6 @@ namespace SzunyogvarEtterem.Controllers
             return View("Index",categoryList);
         }
 
-        public ActionResult DeleteCategory(int id) {
-            //"SELECT * from menuCategory WHERE categoryID=@id"
-            return View();
-        }
-
         
         
         // POST: CategoryController/Create
@@ -44,16 +39,17 @@ namespace SzunyogvarEtterem.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(CategoryModel categoryModel)
         {
-            
-                DBHandler.Create(categoryModel);
 
             try
             {
-                return RedirectToAction(nameof(Index));
+                DBHandler.Create(categoryModel);
+            List<CategoryModel> categoryList = DBHandler.GetCategories();
+                return View("Index",categoryList);//detailsel működik.
+                //return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View("Index", categoryModel);//detailsel működik.
+                return View("Problem");
             }
 
         }
@@ -61,28 +57,36 @@ namespace SzunyogvarEtterem.Controllers
         // GET: CategoryController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            CategoryModel categoryModel = DBHandler.GetEdit(id);
+            return View("Edit",categoryModel);
         }
 
         // POST: CategoryController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id,CategoryModel categoryModel)
+        //public ActionResult Edit(CategoryModel categoryModel)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            
+            DBHandler.Edit(id,categoryModel);
+            List<CategoryModel> categoryList = DBHandler.GetCategories();
+
+                return View("Index",categoryList);
+            //try
+            //{
+            //    return RedirectToAction(nameof(Index));
+            //}
+            //catch
+            //{
+            //}
         }
 
         // GET: CategoryController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            CategoryModel categoryModel = DBHandler.GetCategoryDetails(id);
+           
+            return View(categoryModel);
         }
 
         // POST: CategoryController/Delete/5
@@ -92,11 +96,14 @@ namespace SzunyogvarEtterem.Controllers
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                CategoryModel categoryModel = DBHandler.Delete(id);
+                List<CategoryModel> categoryList = DBHandler.GetCategories();
+                return View("Index", categoryList);
+
             }
             catch
             {
-                return View();
+                return View("Problem");
             }
         }
     }

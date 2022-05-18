@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yT0guK9isL+mbhFAPRaI0RtmtRHexf69/IlphGmpLLQ=",
+  "Hash": "t8yjqMfS9yYVqkZlWOryoSfI8N8PrcIUvTXnoIvbfpo=",
   "Source": "SzunyogvarEtterem",
   "BasePath": "_content/SzunyogvarEtterem",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\SP\\source\\repos\\SzunyogvarEtterem\\SzunyogvarEtterem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SzunyogvarEtterem.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\SP\\source\\repos\\SzunyogvarEtterem\\SzunyogvarEtterem\\wwwroot\\css\\CategoryIndex.css",
+      "SourceId": "SzunyogvarEtterem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SP\\source\\repos\\SzunyogvarEtterem\\SzunyogvarEtterem\\wwwroot\\",
+      "BasePath": "_content/SzunyogvarEtterem",
+      "RelativePath": "css/CategoryIndex.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CategoryIndex.css"
     },
     {
       "Identity": "C:\\Users\\SP\\source\\repos\\SzunyogvarEtterem\\SzunyogvarEtterem\\wwwroot\\css\\site.css",

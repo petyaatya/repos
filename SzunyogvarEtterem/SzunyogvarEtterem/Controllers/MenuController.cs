@@ -21,7 +21,8 @@ namespace SzunyogvarEtterem.Controllers
         // GET: MenuController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            MenuItemModel menuItemModel = DBHandler.MenuitemDetails(id);
+            return View("Details",menuItemModel);
         }
 
         // GET: MenuController/Create
@@ -30,46 +31,60 @@ namespace SzunyogvarEtterem.Controllers
             return View();
         }
 
+        public ActionResult CreateDataList()
+        {
+            MenuItemModel menuItemModel = new MenuItemModel();
+             List<MenuItemModel> menuItemList= DBHandler.GetMenuCategories();
+            return View(menuItemList);
+           
+        }
+
         // POST: MenuController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(MenuItemModel menuItemModel)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+            DBHandler.CreateMenuItemModel(menuItemModel);
+                List<MenuItemModel> menuItemList = DBHandler.GetMenuItems();
+                return View("Index", menuItemList);
             }
             catch
             {
-                return View();
+                return View("Problem");
             }
         }
 
         // GET: MenuController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            MenuItemModel menuItemModel = DBHandler.GetMenuEdit(id);
+            return View("Edit",menuItemModel);
         }
 
         // POST: MenuController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, MenuItemModel menuItemModel)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                DBHandler.MenuEdit(id, menuItemModel);
+                List<MenuItemModel> menuItemList = DBHandler.GetMenuItems();
+                return View("Index", menuItemList);
             }
             catch
             {
-                return View();
+                return View("Problem");
             }
         }
 
         // GET: MenuController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            MenuItemModel menuItemModel = DBHandler.MenuitemDetails(id);
+            return View(menuItemModel);
         }
 
         // POST: MenuController/Delete/5
@@ -79,7 +94,9 @@ namespace SzunyogvarEtterem.Controllers
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                MenuItemModel menuItemModel = DBHandler.DeleteMenuItemModel(id);
+                List<MenuItemModel>menuItemList= DBHandler.GetMenuItems();
+                return View("Index",menuItemList);
             }
             catch
             {
