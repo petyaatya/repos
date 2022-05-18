@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\ListFundamentals\ListFundamentals\bin\Debug\ListFundamentals.exe.config
-C:\Users\SP\source\repos\ListFundamentals\ListFundamentals\bin\Debug\ListFundamentals.exe
-C:\Users\SP\source\repos\ListFundamentals\ListFundamentals\bin\Debug\ListFundamentals.pdb
-C:\Users\SP\source\repos\ListFundamentals\ListFundamentals\obj\Debug\ListFundamentals.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\ListFundamentals\ListFundamentals\obj\Debug\ListFundamentals.exe
-C:\Users\SP\source\repos\ListFundamentals\ListFundamentals\obj\Debug\ListFundamentals.pdb
-C:\Users\SP\source\repos\ListFundamentals\ListFundamentals\obj\Debug\ListFundamentals.csprojAssemblyReference.cache

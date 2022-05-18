@@ -1,6 +1,0 @@
-C:\Users\SP\source\repos\48Excercise1\48Excercise1\bin\Debug\48Excercise1.exe.config
-C:\Users\SP\source\repos\48Excercise1\48Excercise1\bin\Debug\48Excercise1.exe
-C:\Users\SP\source\repos\48Excercise1\48Excercise1\bin\Debug\48Excercise1.pdb
-C:\Users\SP\source\repos\48Excercise1\48Excercise1\obj\Debug\48Excercise1.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\48Excercise1\48Excercise1\obj\Debug\48Excercise1.exe
-C:\Users\SP\source\repos\48Excercise1\48Excercise1\obj\Debug\48Excercise1.pdb

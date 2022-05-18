@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\ArraysMatrixsFundamentals\ArraysMatrixsFundamentals\bin\Debug\ArraysMatrixsFundamentals.exe.config
-C:\Users\SP\source\repos\ArraysMatrixsFundamentals\ArraysMatrixsFundamentals\bin\Debug\ArraysMatrixsFundamentals.exe
-C:\Users\SP\source\repos\ArraysMatrixsFundamentals\ArraysMatrixsFundamentals\bin\Debug\ArraysMatrixsFundamentals.pdb
-C:\Users\SP\source\repos\ArraysMatrixsFundamentals\ArraysMatrixsFundamentals\obj\Debug\ArraysMatrixsFundamentals.csprojAssemblyReference.cache
-C:\Users\SP\source\repos\ArraysMatrixsFundamentals\ArraysMatrixsFundamentals\obj\Debug\ArraysMatrixsFundamentals.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\ArraysMatrixsFundamentals\ArraysMatrixsFundamentals\obj\Debug\ArraysMatrixsFundamentals.exe
-C:\Users\SP\source\repos\ArraysMatrixsFundamentals\ArraysMatrixsFundamentals\obj\Debug\ArraysMatrixsFundamentals.pdb

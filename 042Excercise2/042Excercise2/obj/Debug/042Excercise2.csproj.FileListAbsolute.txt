@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\042Excercise2\042Excercise2\bin\Debug\042Excercise2.exe.config
-C:\Users\SP\source\repos\042Excercise2\042Excercise2\bin\Debug\042Excercise2.exe
-C:\Users\SP\source\repos\042Excercise2\042Excercise2\bin\Debug\042Excercise2.pdb
-C:\Users\SP\source\repos\042Excercise2\042Excercise2\obj\Debug\042Excercise2.csprojAssemblyReference.cache
-C:\Users\SP\source\repos\042Excercise2\042Excercise2\obj\Debug\042Excercise2.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\042Excercise2\042Excercise2\obj\Debug\042Excercise2.exe
-C:\Users\SP\source\repos\042Excercise2\042Excercise2\obj\Debug\042Excercise2.pdb

@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\StringFundamentals\StringFundamentals\bin\Debug\StringFundamentals.exe.config
-C:\Users\SP\source\repos\StringFundamentals\StringFundamentals\bin\Debug\StringFundamentals.exe
-C:\Users\SP\source\repos\StringFundamentals\StringFundamentals\bin\Debug\StringFundamentals.pdb
-C:\Users\SP\source\repos\StringFundamentals\StringFundamentals\obj\Debug\StringFundamentals.csprojAssemblyReference.cache
-C:\Users\SP\source\repos\StringFundamentals\StringFundamentals\obj\Debug\StringFundamentals.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\StringFundamentals\StringFundamentals\obj\Debug\StringFundamentals.exe
-C:\Users\SP\source\repos\StringFundamentals\StringFundamentals\obj\Debug\StringFundamentals.pdb

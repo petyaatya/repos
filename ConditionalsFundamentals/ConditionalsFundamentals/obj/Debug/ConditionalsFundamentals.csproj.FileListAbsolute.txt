@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\ConditionalsFundamentals\ConditionalsFundamentals\bin\Debug\ConditionalsFundamentals.exe.config
-C:\Users\SP\source\repos\ConditionalsFundamentals\ConditionalsFundamentals\bin\Debug\ConditionalsFundamentals.exe
-C:\Users\SP\source\repos\ConditionalsFundamentals\ConditionalsFundamentals\bin\Debug\ConditionalsFundamentals.pdb
-C:\Users\SP\source\repos\ConditionalsFundamentals\ConditionalsFundamentals\obj\Debug\ConditionalsFundamentals.csprojAssemblyReference.cache
-C:\Users\SP\source\repos\ConditionalsFundamentals\ConditionalsFundamentals\obj\Debug\ConditionalsFundamentals.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\ConditionalsFundamentals\ConditionalsFundamentals\obj\Debug\ConditionalsFundamentals.exe
-C:\Users\SP\source\repos\ConditionalsFundamentals\ConditionalsFundamentals\obj\Debug\ConditionalsFundamentals.pdb

@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\ForeachFundamentals\ForeachFundamentals\bin\Debug\ForeachFundamentals.exe.config
-C:\Users\SP\source\repos\ForeachFundamentals\ForeachFundamentals\bin\Debug\ForeachFundamentals.exe
-C:\Users\SP\source\repos\ForeachFundamentals\ForeachFundamentals\bin\Debug\ForeachFundamentals.pdb
-C:\Users\SP\source\repos\ForeachFundamentals\ForeachFundamentals\obj\Debug\ForeachFundamentals.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\ForeachFundamentals\ForeachFundamentals\obj\Debug\ForeachFundamentals.exe
-C:\Users\SP\source\repos\ForeachFundamentals\ForeachFundamentals\obj\Debug\ForeachFundamentals.pdb
-C:\Users\SP\source\repos\ForeachFundamentals\ForeachFundamentals\obj\Debug\ForeachFundamentals.csprojAssemblyReference.cache

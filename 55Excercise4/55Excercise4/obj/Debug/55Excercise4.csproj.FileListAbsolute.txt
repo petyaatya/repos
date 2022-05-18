@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\55Excercise4\55Excercise4\bin\Debug\55Excercise4.exe.config
-C:\Users\SP\source\repos\55Excercise4\55Excercise4\bin\Debug\55Excercise4.exe
-C:\Users\SP\source\repos\55Excercise4\55Excercise4\bin\Debug\55Excercise4.pdb
-C:\Users\SP\source\repos\55Excercise4\55Excercise4\obj\Debug\55Excercise4.csprojAssemblyReference.cache
-C:\Users\SP\source\repos\55Excercise4\55Excercise4\obj\Debug\55Excercise4.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\55Excercise4\55Excercise4\obj\Debug\55Excercise4.exe
-C:\Users\SP\source\repos\55Excercise4\55Excercise4\obj\Debug\55Excercise4.pdb

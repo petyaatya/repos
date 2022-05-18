@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\RandomFundamentals\RandomFundamentals\bin\Debug\RandomFundamentals.exe.config
-C:\Users\SP\source\repos\RandomFundamentals\RandomFundamentals\bin\Debug\RandomFundamentals.exe
-C:\Users\SP\source\repos\RandomFundamentals\RandomFundamentals\bin\Debug\RandomFundamentals.pdb
-C:\Users\SP\source\repos\RandomFundamentals\RandomFundamentals\obj\Debug\RandomFundamentals.csprojAssemblyReference.cache
-C:\Users\SP\source\repos\RandomFundamentals\RandomFundamentals\obj\Debug\RandomFundamentals.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\RandomFundamentals\RandomFundamentals\obj\Debug\RandomFundamentals.exe
-C:\Users\SP\source\repos\RandomFundamentals\RandomFundamentals\obj\Debug\RandomFundamentals.pdb

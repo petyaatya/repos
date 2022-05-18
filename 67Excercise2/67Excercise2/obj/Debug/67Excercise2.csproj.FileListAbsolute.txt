@@ -1,8 +1,0 @@
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\bin\Debug\67Excercise2.exe.config
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\bin\Debug\67Excercise2.exe
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\bin\Debug\67Excercise2.pdb
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\obj\Debug\67Excercise2.csproj.AssemblyReference.cache
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\obj\Debug\67Excercise2.csproj.SuggestedBindingRedirects.cache
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\obj\Debug\67Excercise2.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\obj\Debug\67Excercise2.exe
-C:\Users\SP\source\repos\67Excercise2\67Excercise2\obj\Debug\67Excercise2.pdb

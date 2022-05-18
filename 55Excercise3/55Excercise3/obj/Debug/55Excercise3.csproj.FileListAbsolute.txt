@@ -1,7 +1,0 @@
-C:\Users\SP\source\repos\55Excercise3\55Excercise3\bin\Debug\55Excercise3.exe.config
-C:\Users\SP\source\repos\55Excercise3\55Excercise3\bin\Debug\55Excercise3.exe
-C:\Users\SP\source\repos\55Excercise3\55Excercise3\bin\Debug\55Excercise3.pdb
-C:\Users\SP\source\repos\55Excercise3\55Excercise3\obj\Debug\55Excercise3.csprojAssemblyReference.cache
-C:\Users\SP\source\repos\55Excercise3\55Excercise3\obj\Debug\55Excercise3.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\55Excercise3\55Excercise3\obj\Debug\55Excercise3.exe
-C:\Users\SP\source\repos\55Excercise3\55Excercise3\obj\Debug\55Excercise3.pdb

@@ -1,6 +1,0 @@
-C:\Users\SP\source\repos\SwitchCaseFundamentals\SwitchCaseFundamentals\bin\Debug\SwitchCaseFundamentals.exe.config
-C:\Users\SP\source\repos\SwitchCaseFundamentals\SwitchCaseFundamentals\bin\Debug\SwitchCaseFundamentals.exe
-C:\Users\SP\source\repos\SwitchCaseFundamentals\SwitchCaseFundamentals\bin\Debug\SwitchCaseFundamentals.pdb
-C:\Users\SP\source\repos\SwitchCaseFundamentals\SwitchCaseFundamentals\obj\Debug\SwitchCaseFundamentals.csproj.CoreCompileInputs.cache
-C:\Users\SP\source\repos\SwitchCaseFundamentals\SwitchCaseFundamentals\obj\Debug\SwitchCaseFundamentals.exe
-C:\Users\SP\source\repos\SwitchCaseFundamentals\SwitchCaseFundamentals\obj\Debug\SwitchCaseFundamentals.pdb
